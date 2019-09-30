@@ -1,5 +1,5 @@
 # Fast-Classical-Scaling
-[[Paper 1]](https://ieeexplore.ieee.org/abstract/document/8509134) [[Paper 2]]((https://docs.wixstatic.com/ugd/28cd82_86d7ecaa87e34d238200be72c1a69a00.pdf))
+[[Paper 1]](https://ieeexplore.ieee.org/abstract/document/8509134) [[Paper 2]](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Shamai_Classical_Scaling_Revisited_ICCV_2015_paper.html)
 
 A matlab implementation of the paper "Classical scaling revisited". An efficient non-linear dimensionality reduction by approximating the classical scaling method (also known as multidimensional scaling (MDS) or Isomap), using distance interpolation within the subspace of the Laplace Beltrami eigenfunctions.
 The code works on 3D triangle meshes, but can be modified to work on graphs of point clouds of any dimension. The graph should be created by connecting near points. In order to modify, one have to calculate the laplace beltrami of a graph.
@@ -10,10 +10,11 @@ The code works on 3D triangle meshes, but can be modified to work on graphs of p
 ## Setup & Usage
 The project was tested on OSX with Matlab R2019a, and should work on windows 64 as well, to run it: 
 1) Download files
-2) Run DEMO.m
+2) If needed, run build_mex.m inside laplace_beltrami folder
+3) Run DEMO.m
 
 ## Citation
-If you use these ideas, please cite the papers (1) <a href="https://ieeexplore.ieee.org/abstract/document/8509134"> Efficient Inter-Geodesic Distance Computation and Fast Classical Scaling</a> and (2) <a href="https://docs.wixstatic.com/ugd/28cd82_91f41197b793480ab25b1f97f10f818a.pdf"> Classical Scaling Revisited </a>:
+If you use these ideas, please cite the papers (1) <a href="https://ieeexplore.ieee.org/abstract/document/8509134"> Efficient Inter-Geodesic Distance Computation and Fast Classical Scaling</a> and (2) <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Shamai_Classical_Scaling_Revisited_ICCV_2015_paper.html"> Classical Scaling Revisited </a>:
 
 ```
 @article{shamai2018efficient,
